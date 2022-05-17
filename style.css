@@ -50,3 +50,50 @@ h1, h2 {
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+#hor {
+	/* width: 790px; */
+	/* position: relative; */
+	left: 10px;
+	top: 39px;
+	right: 10px;
+    background-color: lightgray;
+	font-size: 13px;
+}
+
+#hor li a {
+	position: relative;
+	bottom: 5px;
+	color: #FFF;
+	padding: 12px;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#hor ul a:hover {
+	color: rgb(0, 0, 0);
+}
+
+#hor ul li:after {
+	/* content: url("primaryMenuBorder.png"); */
+	position: relative;
+	top: 3px;
+}
+
+#hor ul li:last-of-type:after {
+	content: "";
+}
+
+nav {
+	height: 30px;
+	line-height: 35px;
+	text-align: center;
+}
+
+nav ul,
+nav ul li {
+	display: inline;
+	margin: 0px auto;
+	padding: 0px;
+}
