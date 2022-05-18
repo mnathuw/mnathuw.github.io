@@ -4,6 +4,27 @@ body {
     max-width: 960px;
     margin: auto;
 }
+.container{
+    text-align: center;
+}
+.container span{
+    /* color:rgb(0, 0, 0); */
+    text-transform: uppercase;
+    display: block;
+}
+.text1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    /* khoang canh giua 2 dong chu */
+    /* margin-bottom: 1px;  */
+    position: relative;
+    animation: text 3s 1;
+}
+.text2{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
 h1 {
     font-size: 3em;
     letter-spacing: .6em;
@@ -97,3 +118,61 @@ nav ul li {
 	margin: 0px auto;
 	padding: 0px;
 }
+
+.footer{
+    /* position: fixed; */
+    left:0;
+    width: 100%;
+    /* background:rgb(0, 0, 0); */
+    color: black;
+    text-align: center;
+}
+
+.box{
+    width: 450px;
+    background: lightgray;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+      }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+    
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: rgb(0, 0, 0);
+  }
+
